@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="main.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assigment 2</title>
+</head>
+<body>
+    <div class="background">
+        <div class="left_box">
+           <h3>Số tiền vay</h3>
+           <h3>Thời gian vay</h3>
+           <h3>Lãi suất</h3>
+           <h3>Ngày giải ngân</h3>
+           <input class="accept_button" type="submit" value="Tính" onclick="Calculate()">
+        </div>
+        <div class="right_box">
+            <form style="font-size: 23px;">
+                <input  id="soTienVay" class="setting_input" type="text">  VND
+                <input  id="thoiGianVay" class="setting_input" type="text">  Tháng
+                <input id="laiSuat" class="setting_input" type="text">  % năm 
+                <input id="ngayGiaiNgan" class="setting_input diff" type="date"> 
+            </form>
+        </div>
+    </div>
+</body>
+<script src="./main.js"></script>
+<script src="./test.js"></script>
+</html>
